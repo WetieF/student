@@ -1,0 +1,24 @@
+#server:
+#  port: ${SERVER_PORT:8080}
+#spring:
+#  application:
+#    name: student
+#  config:
+#    import: classpath:config/mysql.yaml, classpath:config/security.yaml, optional:configtree:/etc/config/
+#
+#
+
+
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:MT_STUDENT
+  jpa:
+    generate-ddl: false
+    show-sql: true
+
+server:
+  port: 9292

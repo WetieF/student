@@ -1,0 +1,5 @@
+api:
+#  username: ${APP_USERNAME:dev-user}
+#  password: ${APP_PASSWORD:dev-user}
+
+#  https://swagger.io/docs/specification/authentication/
